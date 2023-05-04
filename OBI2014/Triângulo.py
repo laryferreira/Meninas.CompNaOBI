@@ -9,7 +9,7 @@ n = list(map(int, input().split()))  # a entrada será composta por 4 números s
 
 n = sorted(n)   # a função "sorted" vai ordenar a lista em ordem crescente
 
-if (n[0] + n[1] > n[2] or n[1] + n[2] > n[3]):  
+if n[0] + n[1] > n[2] or n[1] + n[2] > n[3]:  
     print('S')
 else:
     print('N')
